@@ -1,0 +1,14 @@
+To install Qt run two commands in cmd
+1) pip install pyqt5
+2) pip install pyqt5-tools
+To run Qt Designer go to Pyton folder and then
+Python\Python-3-8-3(you can have another version)\Lib\site-packages\pyqt5_tools\Qt\bin\designer.exe
+After creating your program window save your file as filename.ui
+You can always check design of your window by Ctrl+R
+Then go to cmd and generate python file by 
+1) Going to folder with filename.ui, for example
+cd C:\Users\Aser\Desktop\password_generator
+2) And then run command
+pyuic5.exe filename.ui -o filename.py -x
+And in your folder you will have filename.py - file with description of your window
+Then import this file to your main python file and you can describe a logic of your application
